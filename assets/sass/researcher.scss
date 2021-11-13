@@ -88,6 +88,10 @@ $y-medium: 1.0rem;
         height: $avatar-size;
         width: $avatar-size;
     }
+    span.baddirection {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+    }
     ol {
         counter-reset: list;
         list-style: none;
