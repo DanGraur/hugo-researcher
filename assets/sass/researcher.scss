@@ -111,11 +111,13 @@ $y-medium: 1.0rem;
         padding-left: 0;
     }
     ul {
+        text-align: justify;
         list-style: inside;
         padding-left: 2rem;
         & > li {
             list-style-position: outside;
             margin-left: 1em;
+            padding-bottom: 0.5em;
         }
     }
     .container > ul, .footnotes > ul {
